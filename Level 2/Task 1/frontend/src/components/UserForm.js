@@ -1,11 +1,12 @@
 import { useState } from "react";
+import { FaPlusCircle } from "react-icons/fa";
 
 function UserForm({ onUserAdded }) {
-  const [name, setName] = useState("");
+  const [skillName, setSkillName] = useState("");
 
-  const addUser = async () => {
-    if (!name.trim()) {
-      alert("Please enter a name");
+  const addSkill = async () => {
+    if (!skillName.trim()) {
+      alert("Please enter a skill name");
       return;
     }
 
@@ -15,35 +16,41 @@ function UserForm({ onUserAdded }) {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name }),
+        body: JSON.stringify({
+          name: skillName
+        }),
       });
 
       const data = await response.json();
 
-      alert("User Added Successfully: " + data.name);
+      setSkillName("");
 
-      setName("");
+      if (onUserAdded) {
+        onUserAdded();
+      }
 
-      // Refresh User List
-      onUserAdded();
+      alert(`Skill "${data.name}" added successfully!`);
     } catch (error) {
       console.error(error);
-      alert("Error connecting to server");
+      alert("Error connecting to server.");
     }
   };
 
   return (
-    <div>
+    <div className="user-form">
+
       <input
         type="text"
-        placeholder="Enter User Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
+        placeholder="Enter Skill Name"
+        value={skillName}
+        onChange={(e) => setSkillName(e.target.value)}
       />
 
-      <button onClick={addUser}>
-        Add User
+      <button onClick={addSkill}>
+        <FaPlusCircle />
+        <span>Add Skill</span>
       </button>
+
     </div>
   );
 }

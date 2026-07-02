@@ -1,38 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+/* Navbar */
+
+.navbar {
+  background: #2563eb;
   color: white;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5px 15px rgba(0,0,0,.1);
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-icon {
+  font-size: 28px;
+}
+
+.dashboard {
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+/* Cards */
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.dashboard-card {
+  flex: 1;
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 5px 18px rgba(0,0,0,.08);
+}
+
+.dashboard-card h3 {
+  color: #555;
+}
+
+.dashboard-card p {
+  margin-top: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+/* Search */
+
+.search-bar {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 5px 18px rgba(0,0,0,.08);
+  margin-bottom: 25px;
+}
+
+.search-bar input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-icon {
+  color: gray;
+}
+/* User Form */
+
+.user-form{
+    display:flex;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.user-form input{
+    flex:1;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:white;
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+    font-size:16px;
+}
+
+.user-form button{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    padding:15px 25px;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.user-form button:hover{
+    background:#1d4ed8;
+}
+/* User List */
+
+.user-list{
+    margin-top:30px;
+}
+
+.user-list h2{
+    margin-bottom:20px;
+}
+
+.user-card{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.user-card:hover{
+    transform:translateY(-3px);
+}
+
+.user-info{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.avatar{
+    font-size:50px;
+    color:#2563eb;
+}
+
+.user-info h3{
+    margin-bottom:5px;
+}
+
+.actions{
+    display:flex;
+    gap:10px;
+}
+
+.edit-btn,
+.delete-btn{
+    border:none;
+    padding:12px;
+    border-radius:10px;
+    cursor:pointer;
+    color:white;
+}
+
+.edit-btn{
+    background:#10b981;
+}
+
+.delete-btn{
+    background:#ef4444;
+}
+.dashboard-card{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.card-icon{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#2563eb;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:26px;
+}
+
+.card-content h3{
+    color:#666;
+    font-size:16px;
+}
+
+.card-content p{
+    font-size:28px;
+    font-weight:bold;
+    color:#111827;
+}
+.skill-details{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+.skill-badge{
+    width:fit-content;
+    background:#dbeafe;
+    color:#2563eb;
+    padding:4px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.progress-bar{
+    width:220px;
+    height:8px;
+    background:#e5e7eb;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.progress-fill{
+    height:100%;
+    background:#2563eb;
+}
+
+/* ===========================
+   Loading State
+=========================== */
+
+.loading-text{
+    text-align:center;
+    margin-top:30px;
+    font-size:18px;
+    font-weight:600;
+    color:#2563eb;
+}
+
+/* ===========================
+   Empty State
+=========================== */
+
+.empty-state{
+    background:#ffffff;
+    padding:50px 20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+    margin-top:20px;
+}
+
+.empty-icon{
+    font-size:70px;
+    color:#cbd5e1;
+    margin-bottom:20px;
+}
+
+.empty-state h3{
+    color:#1f2937;
+    margin-bottom:10px;
+    font-size:24px;
+}
+
+.empty-state p{
+    color:#6b7280;
+    font-size:16px;
+}
+
+/* ===========================
+   Better Button Hover
+=========================== */
+
+.edit-btn,
+.delete-btn{
+    transition:0.3s;
+}
+
+.edit-btn:hover{
+    background:#059669;
+    transform:scale(1.08);
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+    transform:scale(1.08);
+}
+
+/* ===========================
+   Responsive Design
+=========================== */
+
+@media (max-width:768px){
+
+    .cards{
+        flex-direction:column;
+    }
+
+    .user-form{
+        flex-direction:column;
+    }
+
+    .user-card{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:20px;
+    }
+
+    .actions{
+        width:100%;
+        justify-content:flex-end;
+    }
+
+    .progress-bar{
+        width:100%;
+    }
+
+    .navbar{
+        padding:15px 20px;
+    }
+
+    .dashboard{
+        width:95%;
+    }
 }
