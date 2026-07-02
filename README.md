@@ -1,94 +1,230 @@
+# 🚀 Codveda Full-Stack Development Internship
 
+This repository contains all the tasks completed during my **Codveda Technology Full-Stack Development Internship**.
 
+---
 
-# Codevita Internship 
-# Codevita Internship
+# 👨‍💻 About
 
-This repository contains all tasks completed during the Codevita Internship Program.
+During this internship, I am learning and implementing modern Full-Stack Development concepts including:
 
-## Progress
+- Frontend Development
+- Backend Development
+- REST APIs
+- Authentication & Authorization
+- React.js
+- Express.js
+- MongoDB
+- JWT Authentication
+- Git & GitHub
 
-### Level 1 - Basic
+---
 
-#### ✅ Task 1: Setup Development Environment
+# 📂 Repository Structure
 
-* Installed and configured Node.js and npm
-* Installed Git and connected GitHub repository
-* Installed MongoDB
-* Learned basic terminal and Git commands
+```
+CodeVita
+│
+├── Level 1
+│   ├── Task 1 - Development Environment
+│   ├── Task 2 - REST API
+│   └── Task 3 - HTML/CSS/JavaScript Frontend
+│
+├── Level 2
+│   ├── Task 1 - React Frontend (SkillSync)
+│   ├── Task 2 - Authentication & Authorization
+│   └── Task 3 - Database Integration
+│
+└── Level 3
+    ├── Task 1 - Full Stack Application
+    ├── Task 2 - WebSockets
+    └── Task 3 - GraphQL
+```
 
-#### ✅ Task 2: Build a Simple REST API
+---
 
-* Developed a REST API using Node.js and Express.js
-* Implemented CRUD operations for user management
-* Tested API endpoints using Postman/Thunder Client
-* Added proper error handling and HTTP responses
+# ✅ Internship Progress
 
-#### ✅ Task 3: Frontend with HTML, CSS, and JavaScript
+## 🟢 Level 1 (Basic)
 
-* Created a responsive frontend interface
-* Implemented API integration using Fetch API
-* Dynamically displayed user data from the backend
-* Added basic styling using CSS
+### ✅ Task 1 – Setup Development Environment
 
-### Level 2 - Intermediate
+- Installed Node.js & npm
+- Configured Git & GitHub
+- Installed MongoDB
+- Learned Terminal Commands
 
-* ⬜ Task 1: Frontend with React/Vue/Angular
-* ⬜ Task 2: Authentication and Authorization
-* ⬜ Task 3: Database Integration
+---
 
-### Level 3 - Advanced
+### ✅ Task 2 – Build REST API
 
-* ⬜ Task 1: Full-Stack Application
-* ⬜ Task 2: WebSockets for Real-Time Communication
-* ⬜ Task 3: GraphQL API Development
+- Express.js Server
+- CRUD Operations
+- REST API
+- HTTP Status Codes
+- API Testing using Postman
 
-## Technologies Used
+---
 
-* HTML5
-* CSS3
-* JavaScript
-* Node.js
-* Express.js
-* MongoDB
-* Git
-* GitHub
+### ✅ Task 3 – HTML, CSS & JavaScript Frontend
 
-## Current Status
+- Responsive UI
+- Fetch API Integration
+- Dynamic Data Rendering
+- Responsive Design
 
-Completed Level 1 (3/3 Tasks) ✅
-## Latest Progress Update
+---
 
-### Level 2 - Task 1 (React Frontend) - In Progress
+# 🟡 Level 2 (Intermediate)
 
-#### Completed
+## ✅ Task 1 – React Frontend (SkillSync)
 
-* React project created and configured
-* React development server running successfully
-* Created first reusable component: UserForm
-* Implemented React state management using useState
-* Built user input interface with React components
+### Features
 
-#### Current Status
+- Modern React Dashboard
+- Functional Components
+- useState & useEffect
+- Search Functionality
+- Dashboard Cards
+- Responsive Layout
+- Reusable Components
+- CRUD UI
+- React Icons
+- API Integration
 
-* API integration with Express backend is the next step
-* User list component and data fetching are pending
+---
 
-### Progress Tracker
+## 🔄 Task 2 – Authentication & Authorization (In Progress)
 
-* ✅ Level 1 Completed
-* 🔄 Level 2 Task 1 In Progress
-* ⬜ Level 2 Task 2 Authentication & Authorization
-* ⬜ Level 2 Task 3 Database Integration
-* ⬜ Level 3 Advanced Tasks
+### Completed
 
-### Technologies Learned So Far
+- Express Authentication Server
+- Signup API
+- Login API
+- Password Hashing (bcrypt)
+- JWT Token Generation
+- Authentication Middleware
+- Protected Routes
+- Duplicate Email Validation
 
-* HTML
-* CSS
-* JavaScript
-* React.js
-* Node.js
-* Express.js
-* Git & GitHub
-* MongoDB
+### Remaining
+
+- Role-Based Authorization
+- React Login Page
+- React Signup Page
+- Frontend Authentication
+
+---
+
+## ⬜ Task 3 – Database Integration
+
+Planned Features
+
+- MongoDB Integration
+- Mongoose Models
+- Database CRUD
+- Data Validation
+- Database Optimization
+
+---
+
+# 🔵 Level 3 (Advanced)
+
+- ⬜ Full Stack MERN Application
+- ⬜ WebSockets (Socket.io)
+- ⬜ GraphQL API
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- React.js
+- React Icons
+
+### Backend
+
+- Node.js
+- Express.js
+- REST API
+- JWT
+- bcrypt
+
+### Database
+
+- MongoDB (Upcoming)
+- Mongoose (Upcoming)
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Postman
+
+---
+
+# 📊 Current Progress
+
+| Level | Status |
+|--------|--------|
+| Level 1 | ✅ Completed |
+| Level 2 Task 1 | ✅ Completed |
+| Level 2 Task 2 | 🔄 In Progress |
+| Level 2 Task 3 | ⬜ Pending |
+| Level 3 | ⬜ Pending |
+
+---
+
+# 🎯 Current Project
+
+## SkillSync
+
+A modern Full-Stack Skill Management Platform built using React.js and Node.js.
+
+### Features
+
+- User Registration
+- Secure Login
+- JWT Authentication
+- Password Encryption
+- Dashboard
+- Search Skills
+- Responsive UI
+- Protected Routes
+
+---
+
+# 📚 Learning Outcomes
+
+During this internship I have learned:
+
+- React.js
+- Express.js
+- REST API Development
+- JWT Authentication
+- Password Hashing
+- Component-Based Architecture
+- API Integration
+- Git Workflow
+- Responsive UI Design
+
+---
+
+# 👨‍💻 Author
+
+**Umesh Jatav**
+
+Full-Stack Development Intern
+
+Codveda Technology
+
+---
+
+# ⭐ Current Completion
+
+🟢 Internship Progress: **~55% Complete**
