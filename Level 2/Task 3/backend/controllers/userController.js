@@ -25,7 +25,7 @@ const createUser = async (req, res) => {
 // ==========================
 const getUsers = async (req, res) => {
   try {
-    const users = await User.find();
+    const users = await User.findAll();
 
     res.status(200).json({
       success: true,
@@ -45,7 +45,7 @@ const getUsers = async (req, res) => {
 // ==========================
 const getUserById = async (req, res) => {
   try {
-    const user = await User.findById(req.params.id);
+    const user = await User.findByPk(req.params.id);
 
     if (!user) {
       return res.status(404).json({
@@ -71,14 +71,7 @@ const getUserById = async (req, res) => {
 // ==========================
 const updateUser = async (req, res) => {
   try {
-    const user = await User.findByIdAndUpdate(
-      req.params.id,
-      req.body,
-      {
-        new: true,
-        runValidators: true,
-      }
-    );
+    const user = await User.findByPk(req.params.id);
 
     if (!user) {
       return res.status(404).json({
@@ -86,6 +79,8 @@ const updateUser = async (req, res) => {
         message: "User not found",
       });
     }
+
+    await user.update(req.body);
 
     res.status(200).json({
       success: true,
@@ -105,7 +100,7 @@ const updateUser = async (req, res) => {
 // ==========================
 const deleteUser = async (req, res) => {
   try {
-    const user = await User.findByIdAndDelete(req.params.id);
+    const user = await User.findByPk(req.params.id);
 
     if (!user) {
       return res.status(404).json({
@@ -113,6 +108,8 @@ const deleteUser = async (req, res) => {
         message: "User not found",
       });
     }
+
+    await user.destroy();
 
     res.status(200).json({
       success: true,
