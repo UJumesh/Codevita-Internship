@@ -2,57 +2,123 @@ import { useState } from "react";
 import { FaPlusCircle } from "react-icons/fa";
 
 function UserForm({ onUserAdded }) {
-  const [skillName, setSkillName] = useState("");
 
-  const addSkill = async () => {
-    if (!skillName.trim()) {
-      alert("Please enter a skill name");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    password: ""
+  });
+
+
+  const addUser = async () => {
+
+    if (!formData.name || !formData.email || !formData.password) {
+      alert("All fields are required");
       return;
     }
 
+
     try {
-      const response = await fetch("http://localhost:3000/users", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name: skillName
-        }),
-      });
+
+      const response = await fetch(
+        "http://localhost:5000/api/users",
+        {
+          method: "POST",
+
+          headers: {
+            "Content-Type": "application/json",
+          },
+
+          body: JSON.stringify(formData),
+        }
+      );
+
 
       const data = await response.json();
 
-      setSkillName("");
 
-      if (onUserAdded) {
+      console.log(data);
+
+
+      setFormData({
+        name: "",
+        email: "",
+        password: ""
+      });
+
+
+      if(onUserAdded){
         onUserAdded();
       }
 
-      alert(`Skill "${data.name}" added successfully!`);
-    } catch (error) {
+
+      alert("User added successfully!");
+
+    } 
+    catch(error){
+
       console.error(error);
-      alert("Error connecting to server.");
+      alert("Backend connection failed");
+
     }
+
   };
 
+
   return (
+
     <div className="user-form">
+
 
       <input
         type="text"
-        placeholder="Enter Skill Name"
-        value={skillName}
-        onChange={(e) => setSkillName(e.target.value)}
+        placeholder="Name"
+        value={formData.name}
+        onChange={(e)=>
+          setFormData({
+            ...formData,
+            name:e.target.value
+          })
+        }
       />
 
-      <button onClick={addSkill}>
-        <FaPlusCircle />
-        <span>Add Skill</span>
+
+      <input
+        type="email"
+        placeholder="Email"
+        value={formData.email}
+        onChange={(e)=>
+          setFormData({
+            ...formData,
+            email:e.target.value
+          })
+        }
+      />
+
+
+      <input
+        type="password"
+        placeholder="Password"
+        value={formData.password}
+        onChange={(e)=>
+          setFormData({
+            ...formData,
+            password:e.target.value
+          })
+        }
+      />
+
+
+      <button onClick={addUser}>
+        <FaPlusCircle/>
+        <span>Add User</span>
       </button>
 
+
     </div>
+
   );
 }
+
 
 export default UserForm;
