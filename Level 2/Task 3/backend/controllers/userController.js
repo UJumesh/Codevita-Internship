@@ -7,13 +7,15 @@ const createUser = async (req, res) => {
   try {
     const user = await User.create(req.body);
 
-    res.status(201).json({
+    return res.status(201).json({
       success: true,
       message: "User created successfully",
       data: user,
     });
   } catch (error) {
-    res.status(500).json({
+    console.error("CREATE USER ERROR:", error);
+
+    return res.status(500).json({
       success: false,
       message: error.message,
     });
@@ -27,13 +29,15 @@ const getUsers = async (req, res) => {
   try {
     const users = await User.findAll();
 
-    res.status(200).json({
+    return res.status(200).json({
       success: true,
       count: users.length,
       data: users,
     });
   } catch (error) {
-    res.status(500).json({
+    console.error("GET USERS ERROR:", error);
+
+    return res.status(500).json({
       success: false,
       message: error.message,
     });
@@ -54,12 +58,14 @@ const getUserById = async (req, res) => {
       });
     }
 
-    res.status(200).json({
+    return res.status(200).json({
       success: true,
       data: user,
     });
   } catch (error) {
-    res.status(500).json({
+    console.error("GET USER ERROR:", error);
+
+    return res.status(500).json({
       success: false,
       message: error.message,
     });
@@ -70,8 +76,13 @@ const getUserById = async (req, res) => {
 // Update User
 // ==========================
 const updateUser = async (req, res) => {
+  console.log("PUT API HIT");
+  console.log("ID:", req.params.id);
+
   try {
     const user = await User.findByPk(req.params.id);
+
+    console.log("USER FOUND:", user);
 
     if (!user) {
       return res.status(404).json({
@@ -82,19 +93,21 @@ const updateUser = async (req, res) => {
 
     await user.update(req.body);
 
-    res.status(200).json({
+    return res.status(200).json({
       success: true,
       message: "User updated successfully",
       data: user,
     });
+
   } catch (error) {
-    res.status(500).json({
+    console.error(error);
+
+    return res.status(500).json({
       success: false,
       message: error.message,
     });
   }
 };
-
 // ==========================
 // Delete User
 // ==========================
@@ -111,12 +124,14 @@ const deleteUser = async (req, res) => {
 
     await user.destroy();
 
-    res.status(200).json({
+    return res.status(200).json({
       success: true,
       message: "User deleted successfully",
     });
   } catch (error) {
-    res.status(500).json({
+    console.error("DELETE USER ERROR:", error);
+
+    return res.status(500).json({
       success: false,
       message: error.message,
     });
