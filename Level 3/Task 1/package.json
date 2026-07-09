@@ -1,0 +1,13 @@
+{
+  "name": "codevita-level3-task1",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
