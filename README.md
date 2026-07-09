@@ -1,32 +1,34 @@
-**
+# 🚀 CodeVita Full-Stack Development Internship
 
-# 🚀 Codveda Full-Stack Development Internship
+This repository contains all the projects and tasks completed during my **CodeVita Full-Stack Development Internship**.
 
-This repository contains all the projects and tasks completed during my **Codveda Technology Full-Stack Development Internship**. The internship focuses on modern web development using the MERN stack, authentication, databases, and real-world full-stack applications.
+Throughout this internship, I built full-stack web applications using **React.js, Node.js, Express.js, MySQL, Sequelize, REST APIs, and modern UI/UX design principles.**
 
 ---
 
 # 👨‍💻 About
 
-During this internship, I am learning and implementing:
+This internship helped me gain practical experience in:
 
 - Frontend Development
 - Backend Development
 - REST API Development
-- Authentication & Authorization
+- Database Integration
 - React.js
-- Node.js & Express.js
-- MongoDB & Mongoose
-- JWT Authentication
+- Node.js
+- Express.js
+- MySQL
+- Sequelize ORM
+- CRUD Operations
 - Git & GitHub
-- Full-Stack MERN Development
+- Responsive UI Design
 
 ---
 
 # 📂 Repository Structure
 
 ```text
-CodeVita
+CodeVita-Internship
 │
 ├── Level 1
 │   ├── Task 1 - Development Environment
@@ -34,14 +36,14 @@ CodeVita
 │   └── Task 3 - HTML, CSS & JavaScript Frontend
 │
 ├── Level 2
-│   ├── Task 1 - React Frontend (SkillSync)
-│   ├── Task 2 - Authentication & Authorization
-│   └── Task 3 - Database Integration
+│   ├── Task 1 - React Frontend
+│   ├── Task 2 - Database Integration
+│   └── Task 3 - Frontend Improvements
 │
 └── Level 3
-    ├── Task 1 - Full Stack MERN Application
-    ├── Task 2 - WebSockets
-    └── Task 3 - GraphQL API
+    ├── Task 1 - Full Stack SkillSync Application
+    ├── Task 2 - UI Enhancement
+    └── Task 3 - Final Project Integration
 ```
 
 ---
@@ -50,112 +52,115 @@ CodeVita
 
 ## 🟢 Level 1 (Completed)
 
-### ✅ Task 1 – Setup Development Environment
+### Task 1 – Development Environment
 
-- Installed Node.js & npm
-- Configured Git & GitHub
-- Installed MongoDB
-- Learned Terminal Commands
-- Configured VS Code
+- Node.js
+- npm
+- Git
+- GitHub
+- VS Code
 
----
+### Task 2 – REST API
 
-### ✅ Task 2 – Build REST API
-
-- Express.js Server
-- CRUD Operations
-- REST API Development
+- Express.js
+- CRUD APIs
+- REST Architecture
 - Error Handling
-- HTTP Status Codes
-- API Testing using Postman
+- Postman Testing
 
----
+### Task 3 – HTML, CSS & JavaScript
 
-### ✅ Task 3 – HTML, CSS & JavaScript Frontend
-
-- Responsive Interface
-- Fetch API Integration
-- Dynamic Data Rendering
-- Responsive Design
+- Responsive UI
+- Fetch API
 - CRUD Operations
+- Dynamic Rendering
 
 ---
 
-# 🟡 Level 2
+# 🟡 Level 2 (Completed)
 
-## ✅ Task 1 – React Frontend (SkillSync)
+### React Frontend
 
-### Features
+Features:
 
-- Modern React Dashboard
-- Functional Components
-- React Hooks (useState, useEffect)
+- React Components
+- React Hooks
+- Dashboard
 - Search Functionality
-- Dashboard Cards
 - Responsive Layout
-- CRUD UI
-- React Icons
 - API Integration
-- Clean UI Design
+- Modern UI
+- Component-Based Architecture
+
+### Database Integration
+
+Features:
+
+- MySQL
+- Sequelize ORM
+- CRUD Operations
+- Model Relationships
+- Database Connectivity
+
+### Frontend Improvements
+
+Features:
+
+- UI Enhancements
+- Modern Components
+- Responsive Design
+- Better User Experience
 
 ---
 
-## ✅ Task 2 – Authentication & Authorization
+# 🔵 Level 3 (Completed)
+
+## SkillSync - Full Stack Skill Management System
 
 ### Features
 
-- User Registration (Signup)
-- Secure Login
-- Password Hashing using bcrypt
-- JWT Authentication
-- JWT Verification Middleware
-- Protected Routes
-- Role-Based Authorization (Admin/User)
-- Duplicate Email Validation
-- Proper HTTP Status Codes
-- RESTful Authentication APIs
+### Dashboard
 
----
+- Premium Dashboard
+- Analytics Cards
+- Search Bar
+- Responsive Layout
 
-## 🔄 Task 3 – Database Integration (Next)
+### User Management
 
-### Planned Features
+- Create User
+- View Users
+- Update User
+- Delete User
+- Search Users
 
-- MongoDB Integration
-- Mongoose Models
-- Permanent Data Storage
-- CRUD Operations using Database
-- Data Validation
-- Database Indexing
-- Database Optimization
+### Skill Management
 
----
+- Add Skill
+- View Skills
+- Update Skill
+- Delete Skill
+- Search Skills
 
-# 🔵 Level 3 (Upcoming)
+### Backend
 
-### ⬜ Task 1 – Build Full Stack MERN Application
+- Express.js
+- REST APIs
+- CRUD Operations
+- MySQL Database
+- Sequelize ORM
 
-- Complete MERN Project
-- Authentication
-- Database Integration
-- Deployment
+### Frontend
 
----
-
-### ⬜ Task 2 – WebSockets
-
-- Socket.io
-- Real-Time Chat
-- Live Notifications
-
----
-
-### ⬜ Task 3 – GraphQL API
-
-- Apollo Server
-- GraphQL Queries
-- Mutations
-- Authentication
+- React.js
+- Axios
+- React Icons
+- Responsive Design
+- Premium UI
+- Modern Forms
+- Dashboard Cards
+- User Cards
+- Skill Cards
 
 ---
 
@@ -163,28 +168,20 @@ CodeVita
 
 # SkillSync
 
-**SkillSync** is a modern Full-Stack Skill Management Platform built during the Codveda Internship.
+A modern Full-Stack Skill Management System built using React, Express, MySQL and Sequelize.
 
-### Current Features
+### Features
 
-- Modern Dashboard UI
-- User Registration
-- Secure Login
-- Password Encryption (bcrypt)
-- JWT Authentication
-- Protected Routes
-- Role-Based Authorization
+- Modern Dashboard
+- Premium UI Design
+- User Management
+- Skill Management
+- Full CRUD Operations
 - Search Functionality
 - Responsive Design
 - REST API Integration
-
-### Upcoming Features
-
-- MongoDB Database
-- User Profile
-- Skill Categories
-- Skill Progress
-- Dashboard Analytics
+- MySQL Database
+- Sequelize ORM
 
 ---
 
@@ -193,23 +190,22 @@ CodeVita
 ## Frontend
 
 - React.js
+- JavaScript (ES6)
 - HTML5
 - CSS3
-- JavaScript (ES6)
+- Axios
 - React Icons
 
 ## Backend
 
 - Node.js
 - Express.js
-- JWT
-- bcrypt
 - REST API
 
 ## Database
 
-- MongoDB (Upcoming)
-- Mongoose (Upcoming)
+- MySQL
+- Sequelize ORM
 
 ## Tools
 
@@ -223,67 +219,90 @@ CodeVita
 
 # 📚 Learning Outcomes
 
-Throughout this internship I have gained hands-on experience with:
+During this internship I learned:
 
 - React.js
-- Node.js
 - Express.js
+- Node.js
+- MySQL
+- Sequelize ORM
 - REST API Development
 - CRUD Operations
-- JWT Authentication
-- Password Hashing (bcrypt)
-- Authentication Middleware
-- Protected Routes
-- Role-Based Authorization
 - API Integration
+- Responsive UI Design
+- Component Architecture
+- Database Design
 - Git Workflow
 - GitHub Collaboration
-- Responsive UI Development
 
 ---
 
-# 📊 Current Progress
+# 📊 Internship Progress
 
 | Level | Status |
 |--------|--------|
 | Level 1 | ✅ Completed |
-| Level 2 Task 1 | ✅ Completed |
-| Level 2 Task 2 | ✅ Completed |
-| Level 2 Task 3 | 🔄 In Progress |
-| Level 3 | ⬜ Pending |
+| Level 2 | ✅ Completed |
+| Level 3 | ✅ Completed |
 
 ---
 
-# 🎯 Overall Internship Progress
+# 🎉 Overall Progress
 
 - ✅ Level 1 Completed
-- ✅ Level 2 Task 1 Completed
-- ✅ Level 2 Task 2 Completed
-- 🔄 Level 2 Task 3 Next
+- ✅ Level 2 Completed
+- ✅ Level 3 Completed
 
 ## 📈 Completion Status
 
-**Completed Tasks:** **6 / 9**
+**Completed Tasks:** **9 / 9**
 
-**Overall Internship Progress:** **67%**
+**Overall Internship Progress:** **100%**
 
 ---
 
-# 🚀 How to Run
+# 🚀 Installation
+
+## Clone Repository
+
+```bash
+git clone <repository-url>
+```
 
 ## Backend
 
 ```bash
+cd backend
 npm install
-node server.js
+npm start
 ```
 
 ## Frontend
 
 ```bash
+cd frontend
 npm install
 npm start
 ```
+
+## Run Both Together
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+# 📸 Screenshots
+
+- Dashboard
+- User Management
+- Skill Management
+- Search
+- Responsive Layout
+
+(Add screenshots here)
 
 ---
 
@@ -291,11 +310,8 @@ npm start
 
 ## Umesh Jatav
 
-**Full-Stack Development Intern**
-
-**Codveda Technology**
+Full-Stack Development Intern
 
 ---
 
-## ⭐ If you found this repository helpful, consider giving it a star.
-**
+⭐ If you like this project, consider giving it a Star on GitHub!   
