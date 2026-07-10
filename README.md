@@ -1,27 +1,61 @@
 # 🚀 CodeVita Full-Stack Development Internship
 
-This repository contains all the projects and tasks completed during my **CodeVita Full-Stack Development Internship**.
+<div align="center">
 
-Throughout this internship, I built full-stack web applications using **React.js, Node.js, Express.js, MySQL, Sequelize, REST APIs, and modern UI/UX design principles.**
+# SkillSync - Full Stack Skill Management System
+
+A modern Full-Stack Web Application developed during the **CodeVita Full-Stack Development Internship**.
+
+Built using **React.js, Node.js, Express.js, MySQL, Sequelize, Socket.io, JWT Authentication and GraphQL**.
+
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-5-black?style=for-the-badge&logo=express)
+![MySQL](https://img.shields.io/badge/MySQL-8.4-4479A1?style=for-the-badge&logo=mysql)
+![Sequelize](https://img.shields.io/badge/Sequelize-6-52B0E7?style=for-the-badge&logo=sequelize)
+![GraphQL](https://img.shields.io/badge/GraphQL-16-E10098?style=for-the-badge&logo=graphql)
+![Socket.io](https://img.shields.io/badge/Socket.io-4-black?style=for-the-badge&logo=socketdotio)
+![JWT](https://img.shields.io/badge/JWT-Authentication-000000?style=for-the-badge&logo=jsonwebtokens)
+
+</div>
 
 ---
 
-# 👨‍💻 About
+# 📌 Project Overview
 
-This internship helped me gain practical experience in:
+This repository contains all projects completed during my **CodeVita Full-Stack Development Internship**.
 
-- Frontend Development
-- Backend Development
+The internship focused on building modern full-stack web applications while learning real-world software development practices.
+
+The final project, **SkillSync**, is a complete Skill Management System featuring:
+
+- User Authentication
+- User Management
+- Skill Management
+- REST APIs
+- GraphQL APIs
+- Real-Time Notifications
+- Responsive Dashboard
+- MySQL Database Integration
+- JWT Authentication
+- Socket.io Communication
+
+---
+
+# 🎯 Internship Objectives
+
+Throughout this internship I learned to build production-ready applications using:
+
+- Modern Frontend Development
+- Backend API Development
+- Database Design
+- Authentication & Authorization
 - REST API Development
-- Database Integration
-- React.js
-- Node.js
-- Express.js
-- MySQL
-- Sequelize ORM
-- CRUD Operations
-- Git & GitHub
-- Responsive UI Design
+- GraphQL
+- Real-Time Communication
+- Responsive UI Development
+- Git & GitHub Workflow
+- Component Based Architecture
 
 ---
 
@@ -33,276 +67,322 @@ CodeVita-Internship
 ├── Level 1
 │   ├── Task 1 - Development Environment
 │   ├── Task 2 - REST API
-│   └── Task 3 - HTML, CSS & JavaScript Frontend
+│   └── Task 3 - HTML CSS JavaScript
 │
 ├── Level 2
 │   ├── Task 1 - React Frontend
-│   ├── Task 2 - Database Integration
-│   └── Task 3 - Frontend Improvements
+│   ├── Task 2 - Authentication
+│   └── Task 3 - Database Integration
 │
 └── Level 3
-    ├── Task 1 - Full Stack SkillSync Application
-    ├── Task 2 - UI Enhancement
-    └── Task 3 - Final Project Integration
+    ├── Task 1 - Full Stack SkillSync
+    ├── Task 2 - Socket.io Real-Time Features
+    └── Task 3 - GraphQL API
 ```
 
 ---
 
-# ✅ Internship Progress
+# 🚀 Features
 
-## 🟢 Level 1 (Completed)
+## Dashboard
 
-### Task 1 – Development Environment
-
-- Node.js
-- npm
-- Git
-- GitHub
-- VS Code
-
-### Task 2 – REST API
-
-- Express.js
-- CRUD APIs
-- REST Architecture
-- Error Handling
-- Postman Testing
-
-### Task 3 – HTML, CSS & JavaScript
-
-- Responsive UI
-- Fetch API
-- CRUD Operations
-- Dynamic Rendering
+- Premium Dashboard UI
+- Analytics Cards
+- Search Functionality
+- Responsive Layout
+- Modern Interface
 
 ---
 
-# 🟡 Level 2 (Completed)
+## Authentication
 
-### React Frontend
+- User Registration
+- User Login
+- JWT Authentication
+- Password Hashing
+- Protected Routes
+- Role-Based Access
 
-Features:
+---
 
-- React Components
-- React Hooks
-- Dashboard
-- Search Functionality
-- Responsive Layout
-- API Integration
-- Modern UI
-- Component-Based Architecture
+## User Management
 
-### Database Integration
+- Add User
+- Update User
+- Delete User
+- View Users
+- Search Users
 
-Features:
+---
+
+## Skill Management
+
+- Add Skills
+- Update Skills
+- Delete Skills
+- View Skills
+- Search Skills
+- Progress Tracking
+
+---
+
+## GraphQL
+
+- GraphQL Server
+- Queries
+- Mutations
+- Resolver Functions
+- GraphiQL Playground
+
+---
+
+## REST API
+
+- CRUD Operations
+- Proper HTTP Status Codes
+- Error Handling
+- JSON Responses
+
+---
+
+## Real-Time Features
+
+- Socket.io Integration
+- Live Notifications
+- Real-Time Updates
+- Online User Tracking
+
+---
+
+## Database
 
 - MySQL
 - Sequelize ORM
-- CRUD Operations
+- Data Validation
 - Model Relationships
-- Database Connectivity
-
-### Frontend Improvements
-
-Features:
-
-- UI Enhancements
-- Modern Components
-- Responsive Design
-- Better User Experience
 
 ---
 
-# 🔵 Level 3 (Completed)
-
-## SkillSync - Full Stack Skill Management System
-
-### Features
-
-### Dashboard
-
-- Premium Dashboard
-- Analytics Cards
-- Search Bar
-- Responsive Layout
-
-### User Management
-
-- Create User
-- View Users
-- Update User
-- Delete User
-- Search Users
-
-### Skill Management
-
-- Add Skill
-- View Skills
-- Update Skill
-- Delete Skill
-- Search Skills
-
-### Backend
-
-- Express.js
-- REST APIs
-- CRUD Operations
-- MySQL Database
-- Sequelize ORM
-
-### Frontend
-
-- React.js
-- Axios
-- React Icons
-- Responsive Design
-- Premium UI
-- Modern Forms
-- Dashboard Cards
-- User Cards
-- Skill Cards
-
----
-
-# 🎯 Current Project
-
-# SkillSync
-
-A modern Full-Stack Skill Management System built using React, Express, MySQL and Sequelize.
-
-### Features
-
-- Modern Dashboard
-- Premium UI Design
-- User Management
-- Skill Management
-- Full CRUD Operations
-- Search Functionality
-- Responsive Design
-- REST API Integration
-- MySQL Database
-- Sequelize ORM
-
----
-
-# 🛠 Tech Stack
+# 💻 Tech Stack
 
 ## Frontend
 
 - React.js
-- JavaScript (ES6)
+- JavaScript (ES6+)
 - HTML5
 - CSS3
 - Axios
 - React Icons
+
+---
 
 ## Backend
 
 - Node.js
 - Express.js
 - REST API
+- GraphQL
+- Socket.io
+
+---
 
 ## Database
 
 - MySQL
 - Sequelize ORM
 
-## Tools
+---
 
+## Authentication
+
+- JWT
+- bcrypt.js
+
+---
+
+## Development Tools
+
+- VS Code
 - Git
 - GitHub
-- VS Code
 - Postman
 - npm
 
 ---
 
-# 📚 Learning Outcomes
-
-During this internship I learned:
-
-- React.js
-- Express.js
-- Node.js
-- MySQL
-- Sequelize ORM
-- REST API Development
-- CRUD Operations
-- API Integration
-- Responsive UI Design
-- Component Architecture
-- Database Design
-- Git Workflow
-- GitHub Collaboration
-
----
-
 # 📊 Internship Progress
 
-| Level | Status |
-|--------|--------|
-| Level 1 | ✅ Completed |
-| Level 2 | ✅ Completed |
-| Level 3 | ✅ Completed |
+| Level | Task | Status |
+|--------|------|--------|
+| Level 1 | Development Environment | ✅ Completed |
+| Level 1 | REST API | ✅ Completed |
+| Level 1 | HTML CSS JavaScript | ✅ Completed |
+| Level 2 | React Frontend | ✅ Completed |
+| Level 2 | Authentication | ✅ Completed |
+| Level 2 | Database Integration | ✅ Completed |
+| Level 3 | Full Stack Application | ✅ Completed |
+| Level 3 | Socket.io | ✅ Completed |
+| Level 3 | GraphQL | ✅ Completed |
 
 ---
 
-# 🎉 Overall Progress
+# 📈 Overall Progress
 
-- ✅ Level 1 Completed
-- ✅ Level 2 Completed
-- ✅ Level 3 Completed
+## ✅ 9 / 9 Tasks Completed
 
-## 📈 Completion Status
-
-**Completed Tasks:** **9 / 9**
-
-**Overall Internship Progress:** **100%**
+**Completion:** **100%**
 
 ---
 
-# 🚀 Installation
+# 🛠 Installation
 
 ## Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/YOUR_USERNAME/Codevita-Internship.git
 ```
+
+---
 
 ## Backend
 
 ```bash
 cd backend
+
 npm install
+
 npm start
 ```
+
+---
 
 ## Frontend
 
 ```bash
 cd frontend
+
 npm install
+
 npm start
 ```
 
-## Run Both Together
+---
 
-```bash
-npm install
-npm run dev
+## GraphQL
+
+```
+http://localhost:5000/graphql
+```
+
+---
+
+# REST API
+
+## Users
+
+```
+GET    /api/users
+
+POST   /api/users
+
+PUT    /api/users/:id
+
+DELETE /api/users/:id
+```
+
+---
+
+## Skills
+
+```
+GET    /api/skills
+
+POST   /api/skills
+
+PUT    /api/skills/:id
+
+DELETE /api/skills/:id
+```
+
+---
+
+# GraphQL Example
+
+### Query
+
+```graphql
+query{
+  users{
+    id
+    name
+    email
+  }
+}
+```
+
+### Mutation
+
+```graphql
+mutation{
+  createSkill(
+    skillName:"GraphQL"
+    category:"Backend"
+    level:"Advanced"
+    progress:90
+  ){
+    id
+    skillName
+  }
+}
 ```
 
 ---
 
 # 📸 Screenshots
 
+- Login Page
 - Dashboard
 - User Management
 - Skill Management
-- Search
-- Responsive Layout
+- GraphQL Playground
+- Socket.io Notifications
+- Responsive Design
 
-(Add screenshots here)
+> Add screenshots here.
+
+---
+
+# 🎓 Learning Outcomes
+
+During this internship I gained hands-on experience in:
+
+- React.js
+- Node.js
+- Express.js
+- MySQL
+- Sequelize ORM
+- JWT Authentication
+- Socket.io
+- GraphQL
+- REST APIs
+- CRUD Operations
+- Database Design
+- Responsive UI Development
+- Git & GitHub Workflow
+- Software Architecture
+
+---
+
+# 📌 Future Improvements
+
+- Docker Support
+- Unit Testing
+- CI/CD Pipeline
+- Cloud Deployment
+- Admin Dashboard
+- Analytics Charts
+- Email Notifications
+- User Profile Management
 
 ---
 
@@ -310,8 +390,15 @@ npm run dev
 
 ## Umesh Jatav
 
-Full-Stack Development Intern
+**Full Stack Developer**
+
+- B.Tech CSE Student
+- CodeVita Full-Stack Development Intern
 
 ---
 
-⭐ If you like this project, consider giving it a Star on GitHub!   
+# ⭐ Support
+
+If you found this project useful, consider giving this repository a ⭐ Star.
+
+It motivates me to build more open-source projects.
