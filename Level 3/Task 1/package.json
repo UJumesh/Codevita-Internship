@@ -1,13 +1,23 @@
 {
-  "name": "codevita-level3-task1",
+  "name": "backend",
   "version": "1.0.0",
-  "private": true,
+  "main": "server.js",
   "scripts": {
-    "frontend": "cd frontend && npm start",
-    "backend": "cd backend && npm start",
-    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.3",
+    "mysql2": "^3.22.6",
+    "sequelize": "^6.37.8",
+    "socket.io": "^4.8.3"
   },
   "devDependencies": {
-    "concurrently": "^9.2.1"
+    "nodemon": "^3.1.14"
   }
 }
