@@ -1,4 +1,4 @@
-# 🚀 CodeVita Full-Stack Development Internship
+# 🚀  TCS CodeVita Full-Stack Development Internship
 
 <div align="center">
 
